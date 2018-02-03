@@ -8,35 +8,21 @@ I am interested in cloud scale systems with focus on bare-metal clouds. My resea
 
 **PhD Student, Electrical and Computer Engineering**, Boston University, August 2014 - Present
 - Research Assistant at Mass Open Cloud. Core developer for the [Hardware Isolation Layer (HIL) project ](ihttps://github.com/CCI-MOC/hil)
+- Currently working on projects FLOCX, [BOLTED](https://massopen.cloud/blog/secure-cloud/) and [BMIS: Baremetal Imaging Service](https://massopen.cloud/blog/bare-metal-imaging/) 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**M. S. Information Systems**, Nanyang Technological University (NTU), Singapore, August 2008 - May 2010
+- Masters Thesis: Modifications for the Knowledge File System (KFS) for Personal Information Management (PIM) on Mobile Devices
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Publications:
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+- Apoorve Mohan, Ata Turk, Ravi S Gudimetla, **Sahil Tikale**, Jason Hennesey, Ugur Kaynar, Gene Cooperman, Peter Desnoyers, Orran Krieger **”M2: Malleable Metal as a Service”** IEEE International Conference on Cloud Engineering, IC2E 2018
 
-**Bold** and _Italic_ and `Code` text
+- Jason Hennessey, **Sahil Tikale** , Ata Turk, Emine Ugur Kaynar, Chris Hill, Peter Desnoyers, Orran Krieger, **“HIL:DesigninganExokernel for the Data Center.”** In Proceedings of the Seventh ACM Symposium on Cloud Computing, 155–168. SoCC 2016
 
-[Link](url) and ![Image](src)
-```
+- Turk Ata, Ravi S. Gudimetla, Emine Ugur Kaynar, Jason Hennessey, **Sahil Tikale**, Peter Desnoyers, Orran Krieger, **“AnExperimenton Bare-Metal BigData Provisioning”** USENIX HotCloud 2016
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SahilTikale/SahilTikale.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- **Tikale Sahil**, Mike Reavey,Laura Kamfonik, Quentin Li, Ian Denhardt, Jason Hennessey,and Orran Krieger.
+**“Recursive Hardware-as-a-Service (rHaaS) and Fast Provisioning”**, Poster presented at Graduate Research Symposium 2015,
