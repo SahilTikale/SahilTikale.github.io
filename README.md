@@ -1,8 +1,13 @@
 ## Welcome to Sahil Tikale's Web page
 
-You can use the [editor on GitHub](https://github.com/SahilTikale/SahilTikale.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Research Interest
+I am interested in cloud scale systems with focus on bare-metal clouds. My research focus is to understand the at-scale issues pertaining to hardware multiplexing in a multi-cloud environment. Currently, I am involved in building a system that allows elastic scaling of cloud and non-cloud infrastructure akin to on demand scaling of applications in a virtualization based cloud.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Education
+
+**PhD Student, Electrical and Computer Engineering**, Boston University, August 2014 - Present
+- Research Assistant at Mass Open Cloud. Core developer for the [Hardware Isolation Layer (HIL) project ](ihttps://github.com/CCI-MOC/hil)
 
 ### Markdown
 
