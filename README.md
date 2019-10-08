@@ -1,7 +1,7 @@
 ## Welcome to Sahil Tikale's Web page
 
 ### Currently working on:
-[My thesis prospectus](SahilPHDproposal_20190930_2239.pdf)
+[My thesis prospectus](SahilPHDproposal.pdf)
 
 
 ### Research Interest
