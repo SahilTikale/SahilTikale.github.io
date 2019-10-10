@@ -1,7 +1,7 @@
 ## Welcome to Sahil Tikale's Web page
 
-### Ready for review:
-**My Thesis Prospectus**
+### Work in Progress:
+**Doctoral Thesis Prospectus**
 
 [Introduction](https://sahiltikale.github.io/SahilPHDproposal.pdf#section.1.1)
 
