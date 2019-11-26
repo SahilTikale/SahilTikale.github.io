@@ -1,10 +1,7 @@
 ## Welcome to Sahil Tikale's Web page
 
-### Work in Progress:
-**Doctoral Thesis Prospectus**
-
-[Introduction](https://sahiltikale.github.io/SahilPHDproposal.pdf#section.1.1) <br>
-[Software Architecture](https://sahiltikale.github.io/SahilPHDproposal.pdf#section.2.1)
+### Currently working on:
+[Thesis Prospectus](Prospectus_overview.md)
 
 ### Research Interest
 I am interested in cloud scale systems with focus on bare-metal clouds. My research focus is to understand the at-scale issues pertaining to hardware multiplexing in a multi-cloud environment. Currently, I am involved in building a system that allows elastic scaling of cloud and non-cloud infrastructure akin to on demand scaling of applications in a virtualization based cloud.
