@@ -44,4 +44,13 @@ and results. Thereafter open questions regarding the (4) will be
 discussed followed by proposed timeline for the work pending towards 
 completion of this thesis.
 
-[Download Complete Thesis Prospectus](https://sahiltikale.github.io/Sahil_PHDproposal_V4.0.pdf)<br>
+## Thesis proposal document
+[Download](https://sahiltikale.github.io/Sahil_PHDproposal_V4.0.pdf)<br>
+
+## Thesis Committee
+
+* **Orran Krieger**, Associate Professor, Boston University, (Advisor) [Homepage](https://www.bu.edu/eng/profile/orran-krieger/)
+* **Larry Rudolph**, Professor, CSAIL MIT, (Co-Advisor) [Homepage](https://people.csail.mit.edu/rudolph/)
+* **Peter Desnoyers**, Associate Professor, Northeastern University
+* **David Starobinski**, Professor, Boston University
+* **Manual Egele**,  Associate Professor, Boston University
