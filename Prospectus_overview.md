@@ -49,7 +49,7 @@ completion of this thesis.
 
 ## Thesis Committee
 
-* **Orran Krieger**, Associate Professor, Boston University, (Advisor) [Homepage](https://www.bu.edu/eng/profile/orran-krieger/)
+* **Orran Krieger**, Professor, Boston University, (Advisor) [Homepage](https://www.bu.edu/eng/profile/orran-krieger/)
 * **Larry Rudolph**, Professor, CSAIL MIT, (Co-Advisor) [Homepage](https://people.csail.mit.edu/rudolph/)
 * **Peter Desnoyers**, Associate Professor, Northeastern University
 * **David Starobinski**, Professor, Boston University
