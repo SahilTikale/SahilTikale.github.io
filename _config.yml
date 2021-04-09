@@ -1,7 +1,244 @@
-theme: jekyll-theme-tactile
-title: Welcome to Sahil's homepage !
-author: PhD Student, Electrical and Computer Engineering, Boston University
-author_email: tikale@bu.edu, sahil.tikale@gmail.com
-description: Feel free to bookmark this to keep an eye on my project updates.
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Sahil Tikale
+title: Systems Researcher, PhD Candidate
+email: sahil.tikale@gmail.com
+website: www.sahiltikale.com
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+twitter_username: SahilTikale
+github_username:  SahilTikale
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username: SahilTikale
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/SahilgoogleScholarProfilePic.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  I am a systems researcher with interest in designing, building and evaluation of cloud-scale-systems. My research focuses on efficiency of multiplexing bare-metal servers at-scale in a multi-cloud environment. Currently, I am building a multi-provider cloud that uses market based economics models for resource allocation within a co-located data-center. 
+  
+  I have over 7 years of experience managing 24/7 critical IT-infrastructure for clients in Banking, Government and Research sector in India, Singapore and the USA.
+
+content:
+  - title: Systems designed as a part of my research  # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Hardware Isolation Layer (HIL)
+        link: https://hil.readthedocs.io/en/latest/
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          HIL is a fundamental new layer in the data-center designed to isolate and allocate bare-metal servers between different provisioning systems (eg, SLURM, OpenStack, Spark etc) 
+        description: | # this will include new lines to allow paragraphs
+          HIL lets you allocate and deallocate hardware resources elastically that can be provisioned to deploy software using any provisioning system of your choice. 
+          HIL is 
+          - Secure: Nodes are network isolated and ownership managed by HIL. 
+          - Compatible: OpenStack Ironic, MaaS, Foreman, BMI, etc 
+          - Extensible: Driver based models for switches and authentication system. 
+          - Switches: Dell, Cisco, Brocade, Juniper. 
+          - Services: Keystone authentication
+          
+          ![HIL-Demo](images/HIL_arch_demo.gif "HIL Demo")
+
+      - layout: top-middle
+        title: More Projects coming soon
+        link:
+        quote: >
+          Will add more projects shortly.
+
+      - layout: top-middle
+        title:
+        link:
+        quote: >
+          All systems are designed as micro-services using opensource technologies that can be extended or/and modified to suite specific purposes. Note - All systems were built as a team effort in collaboration with others. 
 
 
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Boston University
+        sub_title: Ph.D. Candidate <br> Computer Engineering <br> Advisor - Prof. Orran Krieger
+        caption: 2014 - 2021 (Expected) <br> USA
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+                Thesis Prospectus: [Bare-metal Marketplace at the bottom of the cloud](http://www.sahiltikale.com/Prospectus_overview.html)
+                - Systems Researcher: [Mass Open Cloud](https://massopen.cloud/about-the-moc/)
+                - Project Mentor: Project based approach towards teaching agile methodologies, test driven development and principles of microservice architecture.
+                  - EC 528 Cloud Computing: **A Baremetal Marketplace**, team of 4 graduate students
+                  - EC 500 Cloud Computing: **Integration of Quads with HIL.** team of 5 graduate students
+                  - EC 528 Cloud Computing: **Auditing as a Service**, team of 4 graduate students
+                - Teaching Assistant:
+                  - CS103: Introduction of Internet Technologies and Web Programming
+                  - CS111: Introduction to Computer Science - I (Python programming course)
+                  - EC440: Introduction to Operating Systems
+
+      - layout: left
+        title: Nanyang Technological University, Singapore
+        sub_title: M.S. Information Systems
+        caption: 2008 - 2010 <br> Singapore
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+                Masters Thesis:  Modifications for the Knowledge File System (KFS) for Personal Information Management (PIM) on Mobile Devices
+
+
+      - layout: left
+        title: L. D. College Of Engg., Gujarat University
+        sub_title: B.Engg. Rubber Technology
+        caption: 1999 - 2003 <br> Ahmedabad, Gujarat, India
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+                - 3 Gold Medals
+                - 11 Merit Certificates for scoring highest per subject.
+                - Precetex Award for best overall academic performance, including best seminar and best final year project
+
+  - title: Publications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Amin Mosayyebzadeh, Apoorve Mohan, **Sahil Tikale**, Mania Abdi, Nabil Schear, Trammell Hudson, Charles Munson, Larry Rudolph, Gene Cooperman, Peter Desnoyers, Orran Krieger **“Supporting security sensitive tenants in a bare-metal cloud ”**, USENIX Annual Technical Conference (ATC 19), 2019
+      - Apoorve Mohan, Ata Turk, Ravi S Gudimetla, **Sahil Tikale**, Jason Hennesey, Ugur Kaynar, Gene Cooperman, Peter Desnoyers, Orran Krieger **“M2: Malleable Metal as a Service”** IEEE International Conference on Cloud Engineering, IC2E 2018
+      - Amin Mosayyebzadeh, Gerardo Ravago, Apoorve Mohan, Ali Raza, **Sahil Tikale**, Nabil Schear, Trammell Hudson, Jason Hennessey, Naved Ansari, Kyle Hogan, Charles Munson, Larry Rudolph, Gene Cooperman, Peter Desnoyers, Orran Krieger **“A secure cloud with minimal provider trust”** 10th {USENIX} Workshop on Hot Topics in Cloud Computing (HotCloud 18), 2018
+      - Jason Hennessey, **Sahil Tikale** , Ata Turk, Emine Ugur Kaynar, Chris Hill, Peter Desnoyers, Orran Krieger, **“HIL:   Designing an Exokernel for the Data Center.”** In Proceedings of the Seventh ACM Symposium on Cloud Computing, 155–168. SoCC 2016
+      - Turk Ata, Ravi S. Gudimetla, Emine Ugur Kaynar, Jason Hennessey, **Sahil Tikale**, Peter Desnoyers, Orran Krieger, **“An Experiment on Bare-Metal BigData Provisioning”** USENIX HotCloud 2016
+      - **Tikale Sahil**, Mike Reavey,Laura Kamfonik, Quentin Li, Ian Denhardt, Jason Hennessey,and Orran Krieger. **“Recursive Hardware-as-a-Service (rHaaS) and Fast Provisioning”**, Poster presented at Graduate Research Symposium 2015,
+
+
+
+
+
+  - title: Experience  # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Red Hat Inc.,
+        link: www.redhat.com
+        sub_title: Research Intern
+        caption: Full time (Summer 2017, 2018) <br> Part time (Fall 2017, Spring 2018) <br> Boston, USA
+        quote: >
+                Red Hat delivers hardened, open source solutions that make it easier for enterprises to work across platforms and environments, from the core datacenter to the network edge.
+        description: | # this will include new lines to allow paragraphs
+                - Integrated QUADS – an internal system used at Red Hat to share a common pool of hardware resources for scalability testing with HIL. Thereby increasing the capability of QUADS to manage wide variety hardware.
+                - Wrote Juniper driver for HIL to support production environment of QUADS at RedHat.
+                - Developed a OpenVswitch driver for HIL to support a continuous integration environment for virtual deployment testing for QUADS and HIL
+                - Did prelimnary work towards developing adaptable reservation system to be included in QUADS.
+
+      - layout: left
+        title: Mechanobiology Institute (MBI)
+        link: www.mbi.nus.edu.sg
+        sub_title: Senior Systems Engineer
+        caption: August 2010 - June 2014 (4 Years) <br> SINGAPORE
+        quote: >
+                The Mechanobiology Institute (MBI) is a Research Centre of Excellence hosted at the National University of Singapore.
+        description: | # this will include new lines to allow paragraphs
+                - Designed and implemented a **centralized storage solution** connecting high end microscopes to HPC clusters. It resulted in significant reduction in post-processing latency. Increased availability of research data across multiple computing platforms without unnecessary duplication. 
+                - Designed, implemented and managed an **in-house single sign-on solution** supporting more than 300 researchers.
+                - Developed **batch uploading module** for OpenFreezer – an open source information management system for biological laboratories.
+                - Created an **in-house accounting solution** to track the usage of compute and storage resources on daily basis using open source technologies.
+                - Accomplished **storage reorganization** of over 140 TB of critical data with least downtime possible.
+                - Evaluated new open-source technologies before assimilating into existing suite of services.
+                - Conducted training and capacity building sessions for staff and researchers for using the computational infrastructure.
+                - Regularly worked with different research groups to understand their requirements.
+                - IT-Infrastructure: 
+                  - **Servers:** OpenSuse Linux servers, SGI ICE HPC cluster 
+                  - **Switches:** Juniper 4200, 3300 and Core switch 8208
+                  - **Storage:** DDN Storage, CxFS, Fraunhofer Parallel Filesystem
+                  - **Applications:** Samba, openLDAP, mysql, Ganglia monitoring system, PBSpro batch scheduler 
+                  - **Scripting:** Bash, Python, C 
+
+      - layout: left
+        title: NCS Pte Ltd. 
+        link: ncs.com.sg
+        sub_title: Systems Consultant <br> Client - Central Provident Fund Board of Singapore
+        caption: July 2009 - August 2010 (1 Years) <br> SINGAPORE
+        quote: >
+                NCS is the leading information, communications and technology (ICT) service provider in Singapore. They deliver end-to-end ICT solutions to government and enterprises.
+        description: | # this will include new lines to allow paragraphs
+                - Served as single point of contact (24/7) for administration and troubleshooting support for more than 60 Solaris 10 Zones and Servers.
+                - Conducted training and capacity building for colleagues to support UNIX based servers and services.
+                - Volunteered to learn new storage backup technology thereby supporting backups for more than 200 UNIX & Windows servers.
+                - Managed transition between legacy and modern backup technologies by coordinating efforts with vendors and client stakeholders.
+                - Implemented measures for business continuity including backup/restore procedures & disaster recovery plan.
+                - Involved in incident management as per ITIL guidelines.
+                - Planned downtime to roll out system changes and security patches.
+                - Maintained up to date documentation of systems and services.
+                - IT-infrastructure: 
+                  - **Servers:** Solaris 10, Windows Servers
+                  - **Storage:** EMC Avamar Backup
+                  - **scripting:** Bash scripting
+
+      - layout: left
+        title: 3i-Infotech Ltd.
+        link: www.3i-infotech.com
+        sub_title: Systems Consultant <br> Client - ICICI Bank Ltd.
+        caption: July 2006 - July 2008 (2 Years) <br> Mumbai, INDIA
+        quote: >
+                Headquartered in Mumbai, India, 3i Infotech is an IT services company with over 4000 employees in 30 offices across 15 countries and over 1000+ clients in more than 50 countries across 4 continents.
+        description: | # this will include new lines to allow paragraphs
+                - Managed a 24X7 critical and heterogeneous production environment for the largest private bank of India.
+                - Responsibilities included from full life-cycle administration (from commissioning, racking, cabling, installing and hardening to daily administration and backup) of over 360 physical servers (flavors of UNIX) connected via SAN/NAS to multiple storage products from various vendors like EMC, IBM, Netapp etc
+                - Planned and conducted a live storage migration of a critical database (> 1TiB) under stringent time pressure.
+                - Promoted to shift in-charge heading a team of 4 engineers in a span of 18 months.
+                - IT-Infrastructure:
+                  - **Servers:** Solaris-9-10, AIX, RHEL
+                  - **Storage:** Veritas Volume Manager, Linux Volume Manager, EMC-[Clarion;DMX-3,Celera-NS80], NetApp, HP-[XP12K,XP1024], IBM-DS4800-02, etc 
+                  - **Scripting:** Bash
+
+
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
