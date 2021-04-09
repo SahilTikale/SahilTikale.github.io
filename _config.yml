@@ -103,7 +103,7 @@ content:
         quote: >
 
         description: | # this will include new lines to allow paragraphs
-                Thesis Prospectus: [Bare-metal Marketplace at the bottom of the cloud](http://www.sahiltikale.com/Prospectus_overview.html)
+                Thesis Prospectus: [Bare-metal Marketplace at the bottom of the cloud](Prospectus_overview.md)
                 - Systems Researcher: [Mass Open Cloud](https://massopen.cloud/about-the-moc/)
                 - Project Mentor: Project based approach towards teaching agile methodologies, test driven development and principles of microservice architecture.
                   - EC 528 Cloud Computing: **A Baremetal Marketplace**, team of 4 graduate students
