@@ -12,7 +12,7 @@ email: sahil.tikale@gmail.com
 website: www.sahiltikale.com
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
 twitter_username: SahilTikale
@@ -46,7 +46,7 @@ linkedin_username: SahilTikale
 
 # About Section
 # about_title: About Me
-about_profile_image: images/SahilgoogleScholarProfilePic.jpeg
+about_profile_image: images/SahilgoogleScholarProfilePic.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a systems researcher with interest in designing, building and evaluation of cloud-scale-systems. My research focuses on efficiency of multiplexing bare-metal servers at-scale in a multi-cloud environment. Currently, I am building a multi-provider cloud that uses market based economics models for resource allocation within a co-located data-center. 
   
@@ -103,7 +103,7 @@ content:
         quote: >
 
         description: | # this will include new lines to allow paragraphs
-                Thesis Prospectus: [Bare-metal Marketplace at the bottom of the cloud](Prospectus_overview.md)
+                Thesis Prospectus: [Bare-metal Marketplace at the bottom of the cloud](Prospectus_overview.html)
                 - Systems Researcher: [Mass Open Cloud](https://massopen.cloud/about-the-moc/)
                 - Project Mentor: Project based approach towards teaching agile methodologies, test driven development and principles of microservice architecture.
                   - EC 528 Cloud Computing: **A Baremetal Marketplace**, team of 4 graduate students
