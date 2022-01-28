@@ -53,4 +53,4 @@ completion of this thesis.
 * **Larry Rudolph**, Professor, CSAIL MIT, (Co-Advisor) [Homepage](https://people.csail.mit.edu/rudolph/)
 * **Peter Desnoyers**, Associate Professor, Northeastern University
 * **David Starobinski**, Professor, Boston University
-* **Manual Egele**,  Associate Professor, Boston University
+* **Martin C Herbordt**, Professor, Boston University
